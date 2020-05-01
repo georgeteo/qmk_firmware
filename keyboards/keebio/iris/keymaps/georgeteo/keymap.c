@@ -33,7 +33,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //┌────────┬─────────────┬───────────┬─────────────┬──────────────┬────────┐                   ┌────────┬────────┬────────┬────────┬────────┬────────┐
      KC_TILD, KC_EXLM,      KC_AT,      KC_HASH,      KC_DLR,        KC_PERC,                     KC_CIRC, KC_AMPR, KC_ASTR, KC_LCBR, KC_RCBR, KC_TRNS,
   //├────────┼─────────────┼───────────┼─────────────┼──────────────┼────────┤                   ├────────┼────────┼────────┼────────┼────────┼────────┤
-     KC_TRNS, KC_TRNS,      KC_TRNS,    KC_TRNS,      KC_TRNS,       KC_TRNS,                     KC_TRNS, KC_TRNS, KC_TRNS, KC_LBRC, KC_RBRC, KC_TRNS,
+     RGB_MOD, KC_TRNS,      KC_TRNS,    KC_TRNS,      KC_TRNS,       KC_TRNS,                     KC_TRNS, KC_TRNS, KC_TRNS, KC_LBRC, KC_RBRC, KC_TRNS,
   //├────────┼─────────────┼───────────┼─────────────┼──────────────┼────────┤                   ├────────┼────────┼────────┼────────┼────────┼────────┤
      KC_TRNS, LCA(KC_LEFT), LCA(KC_UP), LCA(KC_DOWN), LCA(KC_RIGHT), KC_TRNS,                     KC_LEFT, KC_UP,   KC_DOWN, KC_RIGHT, KC_TRNS, KC_TRNS,
   //├────────┼─────────────┼───────────┼─────────────┼──────────────┼──────────┼────────┐        ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
